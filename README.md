@@ -3,9 +3,9 @@
 		<img src="./web/static/logo_filled.svg" width="200">
 	</a>
 </p>
-<h1 align="center"><b>Miru</b></h1>
+<h1 align="center"><b>Miru-RPCLess</b></h1>
 
-<h4 align="center"><b>Stream anime torrents, real-time with no waiting for downloads</b></h4>
+<h4 align="center"><b>Modified fork of Miru (disables RPC and more). Stream anime torrents, real-time with no waiting for downloads</b></h4>
 
 <p align="center">
   <a href="https://miru.watch/#about">About</a> •
@@ -113,7 +113,16 @@ apt install linux-Miru-*.deb
 
 ## **Building and Development**
 
-*good luck*
+### Install Packages
+```
+pnpm install
+```
+
+### Build
+```
+cd electron # depends on your OS
+pnpm run build
+```
 
 Dependencies:
  - Node 16 or above
