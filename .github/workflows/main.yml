@@ -34,7 +34,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Install dependencies
-        run: cd electron && pnpm install --frozen-lockfile
+        run: cd electron && pnpm install
 
       - name: Build and Publish
         env:
