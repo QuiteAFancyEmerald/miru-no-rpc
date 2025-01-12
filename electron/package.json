@@ -1,8 +1,8 @@
 {
-  "name": "Miru",
+  "name": "miru_rpcless_fork",
   "version": "5.5.9",
   "private": true,
-  "author": "ThaUnknown_ <ThaUnknown@users.noreply.github.com>",
+  "author": "QuiteAFancyEmerald <QuiteAFancyEmerald@users.noreply.github.com>; ThaUnknown_ <ThaUnknown@users.noreply.github.com>",
   "description": "Stream anime torrents, real-time with no waiting for downloads.",
   "main": "build/main.js",
   "homepage": "https://github.com/ThaUnknown/miru#readme",
@@ -42,8 +42,12 @@
     "directories": {
       "buildResources": "buildResources"
     },
-    "electronDist": "electron-dist",
     "asarUnpack": "**/*.node",
+    "electronDownload": {
+      "mirror": "https://github.com/electron/electron/releases/download/",
+      "version": "32.1.1",
+      "customDir": "v32.1.1"
+    },
     "protocols": {
       "name": "miru",
       "schemes": [
@@ -53,15 +57,15 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "ThaUnknown",
+        "owner": "QuiteAFancyEmerald",
         "repo": "miru"
       }
     ],
-    "appId": "com.github.thaunknown.miru",
+    "appId": "com.github.quiteafancyemerald.miru",
     "electronLanguages": [
       "en-US"
     ],
-    "productName": "Miru",
+    "productName": "miru-rpcless-fork",
     "files": [
       "build/**/*",
       "!node_modules/**/*.{mk,a,o,h}"
