@@ -5,7 +5,9 @@
 </p>
 <h1 align="center"><b>Miru-RPCLess</b></h1>
 
-<h4 align="center"><b>Modified fork of Miru (disables RPC and more). Stream anime torrents, real-time with no waiting for downloads</b></h4>
+<h4 align="center"><b>Modified fork of Miru that adds an option to disable RPC and has better default settings.<br><br>Life could be so simple.<br><br>Stream anime torrents, real-time with no waiting for downloads</b></h4>
+
+<img src="https://raw.githubusercontent.com/QuiteAFancyEmerald/miru-rpcless/refs/heads/master/rpc-preview.png" alt="life could be so simple">
 
 <p align="center">
   <a href="https://miru.watch/#about">About</a> •
@@ -88,28 +90,9 @@ Unlike qBit's sequential, seeking into undownloaded data will prioritise downloa
 - stream real-time with no waiting for downloads
 - support for custom extensions for custom sources and trackers
 
-## **Linux Installation**
+## Installation
 
-### Arch
-
-If you use paru:
-```bash
-paru -S miru-bin
-```
-
-If you use yay:
-
-```bash
-yay -S miru-bin
-```
-
-### Debian/Ubuntu
-
-- Download the `linux-Miru-version.deb` from the [releases](https://github.com/ThaUnknown/miru/releases/latest) page.
-- Install the deb file with package manager.
-```bash
-apt install linux-Miru-*.deb
-```
+Simply select your respective OS from the releases tab!
 
 ## **Building and Development**
 
